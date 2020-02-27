@@ -14,6 +14,7 @@ import { ContactListComponent } from './contact-list/contact-list.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { GraphSimComponent } from './graph-sim/graph-sim.component';
+import { FaceDetectionComponent } from './face-detection/face-detection.component';
 
 
 
@@ -25,7 +26,8 @@ import { GraphSimComponent } from './graph-sim/graph-sim.component';
     ContactListComponent,
     HeaderComponent,
     FooterComponent,
-    GraphSimComponent
+    GraphSimComponent,
+    FaceDetectionComponent
   ],
   imports: [
     BrowserModule,
